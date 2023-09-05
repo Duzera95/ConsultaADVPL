@@ -62,7 +62,7 @@ oFWMSExc:Activate()
     oFWMSExc:GetXMLFile(cArquivo)
      
     //Abrindo o excel e abrindo o arquivo xml
-    oExcel := MsExcel():New()             //Abre uma nova conex„o com Excel
+    oExcel := MsExcel():New()             //Abre uma nova conex√£o com Excel
     oExcel:WorkBooks:open(cArquivo)       //Abre uma planilha
     oExcel:SetVisible(.T.)                //Visualiza a planilha
     oExcel:Destroy()                      //Encerra o processo do gerenciador de tarefas
